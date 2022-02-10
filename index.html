@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="shortcut icon" href="https://dataideas.de/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center py-3 sticky-top bg-white shadow-sm">
+        <nav class="nav nav-pills">
+            <li class="nav-item"><a href="#start" class="nav-link" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        </nav>
+    </div>
+    <div class="container">
+        <header id="start" class="row h-75 p-3 py-5 my-4 bg-light rounded-2">
+            <div class="col-sm-12 col-md-2 d-flex justify-content-center">
+                <img src="kitektort.jpg" class="border-light img-fluid rounded-circle">
+            </div>
+            <div class="col-sm-12 col-md-8 p-3">
+                <h1>Bartz Patryk</h1>
+
+                <hr>
+                <p>
+                    Strona powstała tak sobie bo testowałem bootsrap'a.
+                </p>
+
+            </div>
+        </header>
+        <main>
+            <section class="pb-3 my-5" id="about">
+                <h2>About Me</h2>
+                <br />
+                <br />
+                <div class="card">
+                    <div class="card-body">Nazywam się Patryk Bartz. Jestem absolwentem Państwowej Wyższej Szkoły Zawodowej im. J. A. Komeńskiego w Lesznie, gdzie
+                    uzyskałem tytuł Licencjata. W 2021 roku przyjaciel namówił mnie do nauki programowania, początkowo nie byłem do tego
+                    przekonany, ale postanowiłem spróbować. Moja przygoda rozpoczęła się od prostego kursu pythona, gdzie zapoznałem się z
+                    podstawowymi pojęciami kodowania. Po uzyskaniu takiej wiedzy, wybrałem ścieżkę nauki frontendowca.
+                    <br />
+                    <br />
+                    Jestem osobą kreatywną, dokładną oraz sumienną. Chcę również podkreślić, że nie boję się wyzwań i z pewnością sprostam
+                    wszystkim powierzonym mi zadaniom.
+                    <br />
+                    <br />
+                    Języki: Html, Css, JavaScript, Python</div>
+                </div>
+            </section>
+            <section class="row" id="portfolio">
+                <h2>Portfolio </h2>
+                <br />
+                <br />
+                <br />
+                <div class="col-sm-12">
+                    
+                </div>
+                <div class="card col-sm-12 col-md-6 my-3">
+                    <img class="card-img-top img-fluid" src="projects/virtualpiano.png" alt="virtual piano">
+                    <div class="card-body">
+                        <h5 class="card-title">Virtual Piano</h5>
+                        <p class="card-text">Wykorzystałem tutaj JavaScript'a do uzyskania dźwięku na mojej stronie.</p>
+                        <a href="https://github.com/Dzank3r/code-learning/tree/main/virtual%20piano" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-6 my-3">
+                    <img class="card-img-top img-fluid" src="projects/todolist.png" alt="to-do-list">
+                    <div class="card-body">
+                        <h5 class="card-title">To-Do List</h5>
+                        <p class="card-text">TODO lista! oklepane, ale każdy musi przez to przejść.</p>
+                        <a href="https://github.com/Dzank3r/code-learning/tree/main/to-do-list" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-6 my-3">
+                    <img class="card-img-top img-fluid" src="projects/rakieta.png" alt="rocket">
+                    <div class="card-body">
+                        <h5 class="card-title">Open Space</h5>
+                        <p class="card-text">Odblokować panel i wysłać rakiete w kosmos - brzmi świetnie.</p>
+                        <a href="https://github.com/Dzank3r/code-learning/tree/main/rocket" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-6 my-3">
+                    <img class="card-img-top img-fluid" src="projects/flash.png" alt="flashcards">
+                    <div class="card-body">
+                        <h5 class="card-title">Flashcards</h5>
+                        <p class="card-text">Ciekawym doświadczeniem było dowiedzieć się jak działają popularne "flashcards".</p>
+                        <a href="https://github.com/Dzank3r/code-learning/tree/main/flashcards" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+
+
+
+                
+            </section>
+            <section id="contacts">
+                <h2 class="contacts-title">Contacts</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <p>Tutaj można mnie znaleźć:
+                            <a href="mailto:dzankerpl@gmail.com">dzankerpl@gmail.com</a>
+                            <br />
+                            albo <a href="tel:+48722377570">722 377 570</a>
+                        </p>
+                        <a href="http://www.Facebook.com/dzanker"><img src="facebook.svg" class="img-fluid"></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 my-4 bg-light rounded-2">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-muted">© 2022 Dzanker</span>
+            </div>
+        </footer>
+    </div>
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
